@@ -1,0 +1,17 @@
+Package: SVDMDS
+Type: Package
+Title: SVDMDS
+Version: 1.0.0
+Author: Christophe BECAVIN and Nicolas TCHITCHEK
+Maintainer: Nicolas TCHITCHEK <nicolas.tchitchek@gmail.com>
+Description: R implementation of the SVD-MDS algorithm
+License: GPL-3 | file LICENSE
+Depends:
+    R (>= 3.1),
+Imports:
+    Rcpp (>= 0.12.4),
+    ggplot2,
+    plyr
+biocViews: DimensionReduction, Visualization, Transcriptomics
+LinkingTo: Rcpp
+RoxygenNote: 5.0.1

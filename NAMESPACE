@@ -1,0 +1,3 @@
+useDynLib(SVD-MDS)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
